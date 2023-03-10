@@ -12,7 +12,7 @@ def crt_books():
     mycursor.execute("INSERT INTO BOOKS VALUES('2101', 'COBOL', 'John W', 'Stern', 5)")                                         
     mydb.commit()
     print('Table BOOK created in MySQL')
-#crt_books()
+crt_books()
 
 #Function to create BOOK_ISSUE
 def crt_bi():
@@ -23,7 +23,7 @@ def crt_bi():
     mycursor.execute("INSERT INTO BOOK_ISSUE VALUES('M0027', 'Surbhi Sharma', '2101', '2020-11-02', '2021-11-20')")
     mydb.commit()
     print('Table BOOK_ISSUE created in MySQL')
-#crt_bi()
+crt_bi()
 
 #Function to display content of table
 def tab_menu():
